@@ -31,7 +31,7 @@ const Footer = () => {
               className="w-6 h-6 hover:opacity-70 transition-smooth"
               aria-label="LinkedIn Profile"
             >
-              <img src="/lovable-uploads/bd0d8d83-82de-448f-ba42-0edeea88bd92.png" alt="LinkedIn" className="w-full h-full" />
+              <img src="./lovable-uploads/bd0d8d83-82de-448f-ba42-0edeea88bd92.png" alt="LinkedIn" className="w-full h-full" />
             </a>
           </div>
         </div>
