@@ -1,4 +1,5 @@
 import { Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,20 +11,18 @@ const Footer = () => {
           </p>
           
           <div className="flex items-center gap-6 text-sm">
-            <a 
-              href="/imprint" 
-              target="_blank"
+            <Link 
+              to="/imprint" 
               className="text-foreground/60 hover:text-foreground transition-smooth"
             >
               Imprint
-            </a>
-            <a 
-              href="/privacy" 
-              target="_blank"
+            </Link>
+            <Link 
+              to="/privacy" 
               className="text-foreground/60 hover:text-foreground transition-smooth"
             >
               Privacy Policy
-            </a>
+            </Link>
             <a
               href="https://www.linkedin.com/in/marcokrebs/"
               target="_blank"
