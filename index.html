@@ -10,23 +10,18 @@
     <meta name="description" content="Independent consultant, advisor, and project manager specializing in tech, AI, SaaS, and eCommerce. Strategic projects, interim management, and startup advisory services." />
     <meta name="author" content="Marco Krebs" />
 
-    <!-- Content Security Policy - Fixed for Ketch -->
-    
-<meta http-equiv="Content-Security-Policy" content="
-  default-src 'self';
-  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com;
-  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://global.ketchcdn.com https://*.ketchcdn.com;
-  font-src 'self' https://fonts.gstatic.com;
-  img-src 'self' data: https:;
-  connect-src 'self' https://*.supabase.co https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com https://api.ketch.com;
-  frame-ancestors 'none';
-">
+    <!-- Content Security Policy - Updated for Ketch -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com https://*.ketchjs.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com https://*.ketchjs.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: https:;
+      connect-src 'self' https://*.supabase.co https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com https://*.ketchjs.com https://api.ketch.com;
+    ">
 
-
-    <!-- Additional Security Headers -->
+    <!-- Additional Security Headers (Note: These should ideally be set at server level) -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
 
     <meta property="og:title" content="Marco Krebs Consulting - Strategic Tech & AI Advisory" />
@@ -38,32 +33,10 @@
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
     
-    <!-- Ketch Cookie Consent -->
-    <script>
-      !function(){
-        window.semaphore = window.semaphore || [];
-        window.ketch = function(){
-          window.semaphore.push(arguments)
-        };
-        var e = new URLSearchParams(document.location.search);
-        var n = document.createElement("script");
-        n.type = "text/javascript";
-        n.src = "https://global.ketchcdn.com/web/v3/config/marco_krebs_consulting/website_smart_tag/boot.js";
-        n.defer = true;
-        n.async = true;
-        
-        // Add error handling
-        n.onerror = function() {
-          console.error('Failed to load Ketch script from:', n.src);
-        };
-        n.onload = function() {
-          console.log('Ketch script loaded successfully');
-        };
-        
-        document.getElementsByTagName("head")[0].appendChild(n);
-      }();
-    </script>
+    <!-- Ketch Cookie Consent - Original Script -->
+    <script>!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=document.createElement("script");e.type="text/javascript",e.src="https://global.ketchcdn.com/web/v3/config/marco_krebs_consulting/website_smart_tag/boot.js",e.defer=e.async=!0,document.getElementsByTagName("head")[0].appendChild(e)}();</script>
 
+    <!-- Debug Script (Remove in production) -->
     <script>
       setTimeout(function() {
         console.log('=== KETCH DEBUG INFO ===');
@@ -71,7 +44,7 @@
         console.log('window.semaphore exists:', typeof window.semaphore !== 'undefined');
         console.log('semaphore length:', window.semaphore ? window.semaphore.length : 'N/A');
         
-        const ketchScripts = document.querySelectorAll('script[src*="ketchcdn.com"]');
+        const ketchScripts = document.querySelectorAll('script[src*="ketch"]');
         console.log('Ketch scripts found:', ketchScripts.length);
         ketchScripts.forEach((script, index) => {
           console.log(`Script ${index + 1}:`, script.src);
@@ -95,7 +68,6 @@
         console.error('CSP Violation:', e.violatedDirective, 'blocked:', e.blockedURI);
       });
     </script>
-  
   </head>
 
   <body>
