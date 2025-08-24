@@ -9,8 +9,8 @@
     <title>Marco Krebs Consulting - Strategic Tech & AI Advisory</title>
     <meta name="description" content="Independent consultant, advisor, and project manager specializing in tech, AI, SaaS, and eCommerce. Strategic projects, interim management, and startup advisory services." />
     <meta name="author" content="Marco Krebs" />
-
-    <!-- Content Security Policy - Updated for Ketch -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <meta http-equiv="Content-Security-Policy" content="
       default-src 'self';
       script-src 'self' 'unsafe-inline' 'unsafe-eval' https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com https://*.ketchjs.com;
@@ -20,54 +20,15 @@
       connect-src 'self' https://*.supabase.co https://global.ketchcdn.com https://*.ketchcdn.com https://cdn.ketchjs.com https://*.ketchjs.com https://api.ketch.com;
     ">
 
-    <!-- Additional Security Headers (Note: These should ideally be set at server level) -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
 
     <meta property="og:title" content="Marco Krebs Consulting - Strategic Tech & AI Advisory" />
     <meta property="og:description" content="Independent consultant, advisor, and project manager specializing in tech, AI, SaaS, and eCommerce. Strategic projects, interim management, and startup advisory services." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
-    <!-- Ketch Cookie Consent - Original Script -->
+    <meta property="og:type" content="website" />    
     <script>!function(){window.semaphore=window.semaphore||[],window.ketch=function(){window.semaphore.push(arguments)};var e=document.createElement("script");e.type="text/javascript",e.src="https://global.ketchcdn.com/web/v3/config/marco_krebs_consulting/website_smart_tag/boot.js",e.defer=e.async=!0,document.getElementsByTagName("head")[0].appendChild(e)}();</script>
 
-    <!-- Debug Script (Remove in production) -->
-    <script>
-      setTimeout(function() {
-        console.log('=== KETCH DEBUG INFO ===');
-        console.log('window.ketch exists:', typeof window.ketch !== 'undefined');
-        console.log('window.semaphore exists:', typeof window.semaphore !== 'undefined');
-        console.log('semaphore length:', window.semaphore ? window.semaphore.length : 'N/A');
-        
-        const ketchScripts = document.querySelectorAll('script[src*="ketch"]');
-        console.log('Ketch scripts found:', ketchScripts.length);
-        ketchScripts.forEach((script, index) => {
-          console.log(`Script ${index + 1}:`, script.src);
-        });
-        
-        if (window.cspViolations && window.cspViolations.length > 0) {
-          console.log('CSP violations detected:', window.cspViolations);
-        } else {
-          console.log('No CSP violations detected');
-        }
-      }, 3000);
-
-      // Listen for CSP violations
-      document.addEventListener('securitypolicyviolation', function(e) {
-        window.cspViolations = window.cspViolations || [];
-        window.cspViolations.push({
-          violatedDirective: e.violatedDirective,
-          blockedURI: e.blockedURI,
-          originalPolicy: e.originalPolicy
-        });
-        console.error('CSP Violation:', e.violatedDirective, 'blocked:', e.blockedURI);
-      });
-    </script>
+    
   </head>
 
   <body>
