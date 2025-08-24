@@ -16,7 +16,7 @@ The site serves as both a business portfolio and a practical exploration of cont
 ## ✨ Features
 
 - **Responsive Design**: Optimized for all devices and screen sizes
-- **Apple-inspired UI**: Clean, modern aesthetic with subtle animations
+- **Clean UI**: Clean, modern aesthetic with subtle animations
 - **Performance Optimized**: Fast loading with optimized assets and lazy loading
 - **SEO Ready**: Comprehensive meta tags and structured data
 - **Contact Integration**: Direct form submission with email notifications
@@ -39,6 +39,7 @@ The site serves as both a business portfolio and a practical exploration of cont
 ### Backend & Services
 - **Supabase** - PostgreSQL database and authentication
 - **Edge Functions** - Serverless contact form processing
+- **Resend** - Transactional email delivery for contact form submissions 
 - **Vercel/GitHub Pages** - Static site hosting with CI/CD
 
 ### Development Tools
@@ -108,7 +109,7 @@ src/
 
 ## 🎨 Design Philosophy
 
-The design embraces **Apple's Human Interface Guidelines** with:
+The design embraces:
 - Clean typography hierarchy
 - Generous whitespace
 - Subtle micro-interactions
@@ -151,7 +152,7 @@ This project showcases the potential of **AI-assisted development** and demonstr
 - **VS Code**: Custom modifications and fine-tuning
 - **GitHub**: Public repository with version control
 
-### Hosting & Deployment (100% Free):
+### Hosting & Deployment:
 - **GitHub Pages**: Static site hosting with automatic deployments
 - **Custom domain**: Professional branding with DNS configuration
 - **SSL/HTTPS**: Automatic security certificates
@@ -165,7 +166,6 @@ This setup demonstrates how modern AI tools and cloud platforms have democratize
 ## 📈 Future Enhancements
 
 - [ ] Blog integration for thought leadership content
-- [ ] AI-powered chatbot for initial client screening
 - [ ] Advanced analytics and user behavior tracking
 - [ ] Multi-language support for international clients
 - [ ] Integration with CRM systems
