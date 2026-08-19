@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-foreground/60 text-sm">
-            © 2025 Marco Krebs Consulting. All rights reserved.
+            © 2026 Marco Krebs Consulting. All rights reserved.
           </p>
           
           <div className="flex items-center gap-6 text-sm">
