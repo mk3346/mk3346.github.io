@@ -69,7 +69,7 @@ const Offering = () => {
             onClick={() => scrollToSection("contact")}
             className="px-12 py-6 text-lg"
           >
-            Start Your Project
+            Start the Conversation
           </Button>
         </div>
       </div>
