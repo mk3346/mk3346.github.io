@@ -168,8 +168,8 @@ const Contact = () => {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="strategic-project">Strategic Project</SelectItem>
-                          <SelectItem value="interim-management">Interim Management</SelectItem>
+                          <SelectItem value="fractional-executive">Fractional Executive Role</SelectItem>
+                          <SelectItem value="board-advisory">Board-Level Advisory</SelectItem>
                           <SelectItem value="startup-advisory">Startup Advisory</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>

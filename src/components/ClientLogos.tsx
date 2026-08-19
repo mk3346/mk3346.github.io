@@ -28,7 +28,7 @@ const ClientLogos = () => {
     name: "Switchpoint",
     url: "https://switchpoint.ai",
     logo: "/lovable-uploads/switchpoint_logo.png",
-    height: "h-9",
+    height: "h-7",
     // white-on-transparent source logo: invert so it renders dark like the others
     extraClasses: "invert"
   }];

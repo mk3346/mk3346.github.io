@@ -19,13 +19,13 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center pt-20">
         <h1 className="text-4xl md:text-6xl font-semibold mb-6 leading-tight relative z-10 text-foreground">
-          Transform Your
+          Scaling Deep Tech
           <span className="text-gradient block leading-tight">
-            Digital Future
+            & AI Growth
           </span>
         </h1>
-        
-        <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">Strategic consulting, interim management, and startup advisory for ambitious companies navigating digital and AI-driven growth.</p>
+
+        <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">Fractional executive roles, board-level advisory, and startup guidance for companies scaling deep tech, AI and digital ventures.</p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="hero" size="lg" onClick={() => scrollToSection("offering")} className="px-12 py-6 text-lg">

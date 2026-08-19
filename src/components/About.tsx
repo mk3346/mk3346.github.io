@@ -39,7 +39,10 @@ const About = () => {
                 </div>
               </div>
               <div className="space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed text-center md:text-left md:flex-1 mt-6 md:mt-0">
-                <p className="text-justify">I'm an entrepreneur and strategic advisor with a track record of building and scaling AI-driven startups. I began in management consulting, guiding enterprises through digital transformation. Later, I moved into innovation leadership in a global organization. Over the past decade, I co-founded one AI venture and helped scale another, leading fundraising, product strategy, and achieving a successful exit. Today, I help startups and established companies shape strategy, drive digital innovation and scale growth by leveraging new technologies.</p>
+                <p className="text-justify">I build and scale technology ventures - first as an operator, now as a fractional executive.</p>
+                <p className="text-justify">My career began in strategy consulting at Detecon (Deutsche Telekom Group), with US assignments at T-Mobile USA in Seattle and in Silicon Valley, followed by digital transformation leadership at FTI Group across 20+ countries. In 2018 I moved into venture building: on the leadership team of AI travel-tech startup Fineway (Series A, EUR 25m raised), I helped scale the company from 15 to ~100 people. In 2021 I co-founded Laya Technologies, a B2B SaaS for premium hotel brands including Marriott, raised a EUR 4m Seed round and led the company to a strategic exit within 18 months.</p>
+                <p className="text-justify">Since the exit, I work independent - taking fractional executive mandates and advising boards and founders across deep tech and AI.</p>
+                <p className="text-justify">I hold a Master in Technology & Innovation Management from the University of Queensland.</p>
               </div>
             </div>
             
