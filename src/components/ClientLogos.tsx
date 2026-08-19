@@ -24,6 +24,13 @@ const ClientLogos = () => {
     url: "https://tape.it/",
     logo: "/lovable-uploads/a272e2b1-f830-407c-8e1a-169b64b87062.png",
     height: "h-6"
+  }, {
+    name: "Switchpoint",
+    url: "https://switchpoint.ai",
+    logo: "/lovable-uploads/switchpoint_logo.png",
+    height: "h-9",
+    // white-on-transparent source logo: invert so it renders dark like the others
+    extraClasses: "invert"
   }];
   return <section className="py-8">
       <div className="max-w-6xl mx-auto px-6">
@@ -31,7 +38,7 @@ const ClientLogos = () => {
 
         <div className="flex flex-wrap justify-center md:justify-between gap-y-8 items-center">
           {clients.map((client, index) => <a key={index} href={client.url} target="_blank" rel="noopener noreferrer" className="group flex items-center justify-center transition-smooth px-4 md:px-0">
-              <img src={client.logo} alt={`${client.name} logo`} className={`${client.height} w-auto object-contain opacity-40 group-hover:opacity-60 transition-smooth grayscale`} />
+              <img src={client.logo} alt={`${client.name} logo`} className={`${client.height} w-auto object-contain opacity-40 group-hover:opacity-60 transition-smooth grayscale ${client.extraClasses ?? ""}`} />
             </a>)}
         </div>
       </div>
